@@ -14,17 +14,13 @@ meanDiffPlus = nan(11,3,4);
 meanDiffMinus = nan(11,3,4);
 
 meanItems = nan(11,3,4);
-expfolder = '/Users/meow/Documents/MATLAB/PH.D in UCI/multiple centroids_exp data & analysis/exp*';
-expfolders = dir(expfolder);
 
+filename = 'subjData_mcmc_DeletingOutliers.mat';
+load(filename);
 %%
 
 for iSub = 1:3
     for iExp  = 1:11
-
-        selectedfolder = [expfolders(iExp).folder,'/',expfolders(iExp).name];
-        subjData_mcmc(iSub).experiment(iExp).expcode = expfolders(iExp).name;
-
 
         numColors = numGroups(iExp); 
         N = numItemsPerGroups(iExp);
