@@ -3,9 +3,8 @@ clc
 close all
 
 % load the data
-folderName = '/Users/meow/Documents/MATLAB/PH.D in UCI/multiple centroids_exp data & analysis/Data Analysis_mcmc/';
-filename = [folderName,'subjData_mcmc_DeletingOutliers.mat'];
-% filename = [folderName,'multipleCentroid_expData_mcmc.mat'];
+
+filename = 'subjData_mcmc_DeletingOutliers.mat';
 load(filename);
 
 
