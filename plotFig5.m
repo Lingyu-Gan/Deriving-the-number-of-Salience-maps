@@ -4,6 +4,6 @@
 run IdealDetectorWithPerfAttenFilter.m
 run IdealDetectorWithSubjectAttenFilter.m
 % Fig 5b % corrrected with motor error
-run getMotorError.m
+load('motorErrorData.mat'); % motor error 
 run CorrectForMotor_PerfectFilter.m
 run CorrectForMotor_subjectAttenFiter.m
