@@ -1,10 +1,10 @@
 
 figure(1)
 
-folderName = '/Users/meow/Documents/MATLAB/PH.D in UCI/multiple centroids_exp data & analysis/Data Analysis_mcmc/';
-filename = [folderName,'subjData_mcmc_DeletingOutliers.mat'];
+
+filename = 'subjData_mcmc_DeletingOutliers.mat';
 load(filename);
-%%
+%
 
 numGroups = [3,3,4,4,4,4,5,6,6,7,8];
 numItemsPerGroups = [10,10,8,6,6,6,6,5,5,4,4];
