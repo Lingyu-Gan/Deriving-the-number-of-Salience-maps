@@ -1,4 +1,4 @@
-figure()
+figure(1)
 % load the data
 % filename = 'subjData_mcmc_DeletingOutliers.mat';
 % load(filename);
