@@ -1,8 +1,8 @@
 % clear all
 % This script plots S3 in the supplementary material
 clc
-folderName = '/Users/meow/Documents/MATLAB/PH.D in UCI/multiple centroids_exp data & analysis/Data Analysis_mcmc/';
-filename = [folderName,'subjData_mcmc_DeletingOutliers.mat'];
+
+filename = 'subjData_mcmc_DeletingOutliers.mat';
 load(filename);
 %%
 numGroups = [3,3,4,4,4,4,5,6,6,7,8];
